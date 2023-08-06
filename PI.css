@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(217, 217, 217);
+   margin: 0%;
+}
+header{
+    background-color: rgb(0, 150, 136);
+}
+.logo{
+    margin-top: 0pt;
+    float: left;
+    width: 10%;
+    height: 10%;
+}
+.botoes{
+    
+    text-align: center;
+    border-top: 50pt;
+}
+.botao{
+    border-radius: 15%;
+    margin-top: 40pt;
+    background-color: rgb(0, 121, 107);
+    color: white;
+    border-style: none;
+    height: 60px;
+    width: 16%;
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 20pt;
+}
+.imagem{
+    width: 35%;
+    height: 40%;
+    margin-top: 65pt;
+    margin-left: 55pt;
+    margin-right: 1pt;
+   
+}
+.texto{
+    font-size: 25pt;
+    width: 45%;
+    height: 40%;
+    text-align: center;
+    margin-left: 150pt;
+    
+    
+}
+.imagem, .texto{
+    display: inline-block;
+}
+.imagem0{
+    width: 20%;
+    height: 23%;
+    margin-top: 67pt;
+    margin-bottom: 0%;
+    margin-left: 80pt;
+}
+.texto_img0{
+    font-size: 25pt;
+    width: 12%;
+    height: 45%;
+    text-align: center;
+    margin-left: 133pt;
+}
+.texto_img1{
+    font-size: 25pt;
+    width: 12%;
+    height: 45%;
+    text-align: center;
+    float: right;
+    
+}
+.imagem1{
+    width: 22%;
+    height: 45%;
+    float: right;
+    
+}.img{
+     text-align: center ;
+     height: 20% ;
+ }
