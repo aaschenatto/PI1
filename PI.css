@@ -4,6 +4,7 @@ body{
 }
 header{
     background-color: rgb(0, 150, 136);
+    height: 10vw;
 }
 footer{
     background-color: rgb(0, 150, 136);
@@ -11,158 +12,159 @@ footer{
 .logo{
     margin-top: 0pt;
     float: left;
-    width: 10%;
-    height: 10%;
+    width: 11%;
+    height: 90%;
 }
 .botoes{
     
     text-align: center;
-    border-top: 50pt;
+    border-top: 5vw;
 }
 .botao{
-    border-radius: 15%;
-    margin-top: 40pt;
+    border-radius: 15vw;
+    margin-top: 2.8vw;
     background-color: rgb(0, 121, 107);
     color: white;
     border-style: none;
-    height: 60px;
-    width: 16%;
-    margin-right: 3%;
-    margin-left: 3%;
-    font-size: 20pt;
+    height: 4vw;
+    width: 14vw;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    font-size: 1.5vw;
 }
 .imagem{
-    width: 35%;
-    height: 40%;
-    margin-top: 65pt;
-    margin-left: 55pt;
+    width: 35vw;
+    height: 25vw;
+    margin-top: 5vw;
+    margin-left: 5vw;
     margin-right: 1pt;
    
 }
 .texto{
-    font-size: 25pt;
-    width: 45%;
-    height: 40%;
+    font-size: 1.6vw;
+    width: 44vw;
+    height: 20vw;
     text-align: center;
-    margin-left: 150pt;
+    margin-left: 7vw;
     font-family: Helvetica, sans-serif;
+    margin-bottom: none;
 }
 .imagem, .texto{
     display: inline-block;
 }
 .imagem0{
-    width: 45%;
-    height: 60%;
+    width: 17vw;
+    height: 12vw;
     margin-bottom: none;
 }
 .imagem1{
-    width: 55%;
-    height: 55%;
+    width: 17vw;
+    height: 25vw;
    
 }
 .imagem2{
-    width: 55%;
-    height: 56%;
+    width: 22vw;
+    height: 13vw;
     margin-bottom: none;
 }
 .textos{
     width: 35%;
-    height: 50%;
-    margin-left: 170pt;
-    font-size: 18pt;
+    height: 30vw;
+    margin-left: 10.5vw;
+    font-size: 1.2vw;
     font-family: Helvetica, sans-serif;
 }
 .retangulo{
     background-color: rgb(0, 150, 136);
     width: 100%;
-    height: 400pt;
+    height: 25vw;
     
 }
 .texto1{
     color: white;
-    width: 700pt;
-    height: 30pt;
-    font-size: 30pt;
+    width: 45vw;
+    height: 30vw;
+    font-size: 2vw;
     text-align: center;
-    margin-left: 420px;
-    border-top: 380pt;
+    margin-left: 15vw;
+    border-top: 23vw;
     font-family: Helvetica, sans-serif;
 }
 .imagem3{
-    height: 290pt;
-    width: 350pt;
+    height: 19vw;
+    width: 23vw;
 }
 .imagem3, .texto1{
     display: inline-block;
-    margin-top: 50pt;
+    margin-top: 2.5vw;
 }
 .titulo{
-    font-size: 70pt;
+    font-size: 5vw;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    padding-left: 210pt;
+    padding-left: 12vw;
 }
 .texto2{
     font-family: Helvetica, sans-serif;
-    font-size: 30pt;
-    width: 700pt;
-    height: 170pt;
+    font-size: 1.9vw;
+    width: 42vw;
+    height: 20vw;
     text-align: center;
-    padding-left: 60pt;
+    padding-left: 6vw;
 }
 .txtetit, .imagem4{
     display: inline-block;
 }
 .imagem4{
-    width: 450pt;
-    height: 450pt;
-    padding-left: 230pt;
+    width: 31vw;
+    height: 30vw;
+    padding-left: 11vw;
 }
 .imagem5{
-    width: 480pt;
-    height: 450pt;
-    padding-left: 165pt;
-    padding-top: 100pt;
+    width: 29vw;
+    height: 28vw;
+    padding-left: 10vw;
+    padding-top: 2vw;
 }
 .titulo1{
-    font-size: 70pt;
+    font-size: 5vw;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
-    padding-left: 210pt;
+    padding-left: 12vw;
 }
 .texto3{
     font-family: Helvetica, sans-serif;
-    font-size: 30pt;
-    width: 700pt;
-    height: 170pt;
+    font-size: 1.9vw;
+    width: 42vw;
+    height: 20vw;
     text-align: center;
-    padding-left: 60pt;
+    padding-left: 6vw;
 }
 .imagem5, .txtetit1{
     display: inline-block;
 }
 .imagem6{
-    width: 30%;
-    height: 45%;
-    padding-left: 200pt;
-    padding-top: 120pt;
+    width: 29vw;
+    height: 25vw;
+    padding-left: 12.5vw;
+    padding-top: 2vw;
 }
 .texto4{
     font-family: Helvetica, sans-serif;
-    font-size: 15pt;
+    font-size: 1.9vw;
     text-align: center;
-    width: 30%;
-    height: 45%;
+    width: 29vw;
+    height: 12vw;
     display: inline-block;
-    font-size: 30pt;
-    padding-left: 200pt;
-    padding-top: 10pt;
+    font-size: 2vw;
+    padding-left: 12.5vw;
+    padding-top: 2vw;
 }
 .contatos, .email, .tele{
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: 20pt;
+    font-size: 2vw;
     display: inline-block;
-    padding-left: 200pt;
-    padding-top: 29pt;
+    padding-left: 10vw;
+    padding-top: 2vw;
 }
