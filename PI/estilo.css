@@ -1,0 +1,21 @@
+.texto{
+    text-align:center;
+    font-size: 21px;
+    width: 75px;
+    height: 45px;
+}
+.texto1{
+    text-align:center;
+    font-size: 21px;
+    width: 75px;
+    height: 45px;
+    color: rgb(3, 161, 3);
+}
+.Tamanho{
+    text-align:center;
+    font-size: 17px;
+    width: 115px;
+    height: 55px;
+    border: solid;
+    border-color: rgb(55, 55, 55);
+}
