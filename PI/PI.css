@@ -3,7 +3,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(224, 224, 224);
    margin: 0%;
    font-family: "Roboto";
 }
@@ -44,12 +44,12 @@ footer{
     font-size: 1.5vw;
 }
 .imagem{
-    width: 38vw;
+    width: 40vw;
     height: 28vw;
     margin-top: 5vw;
     margin-left: 3vw;
     margin-right: 1pt;
-    border-radius: 2vw;
+    border-radius: 1vw;
     border-color: black;
     border: solid rgb(114, 112, 112);
 }
@@ -58,7 +58,7 @@ footer{
     width: 48vw;
     height: 25vw;
     text-align: center;
-    margin-left: 4.5vw;
+    margin-left: 3vw;
     font-family: "Roboto";
     margin-top: 8vw;
     position:absolute;
@@ -69,21 +69,24 @@ footer{
 .imagem0{
     width: 25vw;
     height: 15vw;
-    margin-top: 5vw;
+    margin-top: -3vw;
+    border-radius: 1vw;
     border-color: black;
     border: solid rgb(114, 112, 112);
 }
 .imagem1{
     width: 25vw;
     height: 15vw;
-    margin-top: 5vw;
+    margin-top: -3vw;
+    border-radius: 1vw;
     border-color: black;
     border: solid rgb(114, 112, 112);
 }
 .imagem2{
     width: 25vw;
     height: 15vw;
-    margin-top: 5vw;
+    margin-top: -3vw;
+    border-radius: 1vw;
     border-color: black;
     border: solid rgb(114, 112, 112);
 }
@@ -254,7 +257,7 @@ footer{
     height: 25vw;
     margin-left: 12.5vw;
     margin-top: 2vw;
-    border-radius: 2vw;
+    border-radius: 1vw;
     border: solid rgb(114, 112, 112);
 }
 .imagem9{
@@ -262,11 +265,16 @@ footer{
     height: 25vw;
     margin-left: 12.5vw;
     margin-top: 2vw;
-    border-radius: 2vw;
+    border-radius: 1vw;
     border: solid rgb(114, 112, 112);
 }
 .titulo3{
     font-size: 4vw;
     font-weight: bold;
     text-align: center;
+}
+.titulo4{
+    font-size: 4vw;
+    text-align: left;
+    margin-left: 4vw;
 }
