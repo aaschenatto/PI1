@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    <link rel="stylesheet" type="text/css" href="PI.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto integrador</title>
+</head>
+<body id="body">
+    <script>
+        let contraste=0
+        function Contraste(){
+            if (contraste == 0){
+                document.getElementById("p1").style.color = "#fff";
+                document.getElementById("p2").style.color = "#fff";
+                document.getElementById("p3").style.color = "#fff";
+                document.getElementById("p4").style.color = "#fff";
+                document.getElementById("p5").style.color = "#fff";
+                
+                
+                document.getElementById("p8").style.color = "#fff";
+                document.getElementById("p9").style.color = "#fff";
+                document.getElementById("p10").style.color = "#fff";
+                document.getElementById("p11").style.color = "#fff";
+                document.getElementById("p12").style.color = "#fff";
+                document.getElementById("p13").style.color = "#fff";
+                document.getElementById("p14").style.color = "#fff";
+                document.getElementById("body").style.backgroundColor = "#000";
+                contraste=1
+            }
+            else{
+                document.getElementById("p1").style.color = "#000";
+                document.getElementById("p2").style.color = "#000";
+                document.getElementById("p3").style.color = "#000";
+                document.getElementById("p4").style.color = "#000";
+                document.getElementById("p5").style.color = "#000";
+                
+                
+                document.getElementById("p8").style.color = "#000";
+                document.getElementById("p9").style.color = "#000";
+                document.getElementById("p10").style.color = "#000";
+                document.getElementById("p11").style.color = "#000";
+                document.getElementById("p12").style.color = "#000";
+                document.getElementById("p13").style.color = "#000";
+                document.getElementById("p14").style.color = "#000";
+                document.getElementById("body").style.backgroundColor = "#fff";
+                contraste=0
+            }
+        }
+    </script>
+    <div class="inicio"></div>
+    <header>
+        <img src="logo.png" class="logo">
+        <div class="botoes">
+            <a href="#"><button class="botao">Início</button></a>
+            <a href="#relatos"><button class="botao">Relatos</button></a>
+            <a href="#calendario"><button class="botao">Calendário</button></a>
+            <a href="#sobrenos"><button class="botao">Sobre Nós</button></a>
+            <a href="#esportes"><button class="botao">Esportes</button></a>
+        </div>
+    </header>
+<div id="inicio" class="a">
+    <img src="imagem7.jpg" class="imagem">
+    
+    <p class="texto" id="p1">
+        É evidente a extrema importância que o esporte adaptado tem em nossa sociedade nos dias de hoje, por meio deste,
+        os PCDs que praticam o esporte podem desenvolver maior independência, melhorar tanto a saúde física como a mental,
+        melhorar sua socialização e desfrutar de um lazer se sentindo incluídos. No entanto, esse estilo de atividade não
+        é devidamente abordada e cuidada, falta de investimento, infraestrutura inadequada e exclusão social são mais
+        comuns do que deveria ser. Este website foi desenvolvido com o intuito de divulgar a causa e abrir os olhos das
+        pessoas para a importância e a diferença que o paraesporte tem na sociedade atual.
+    </p>
+</div>
+    
+    
+<div id="relatos">
+    <p class="titulo4" id="p2">Relatos</p>
+<table>
+    <tr>
+        <th><img src="imagem0.jpg" class="imagem0" >
+        <th> <img src="imagem1.jpg" class="imagem1" >
+        <th> <img src="imagem2.jpg" class="imagem2">
+    </tr>
+    <tr>
+        
+            <th><p class="textos" id="p3">De acordo com uma profissional da saúde que tem experiência com o trabalho com cadeirantes, o esporte é um agente importante para a melhora da qualidade de vida do cadeirante. Com o esporte, fatores da saúde física e mental melhoram, porém, um maior investimento público e o respeito à constituição se mostram necessários, pois a falta destes é um empecilho para inclusão e acessibilidade. </p></th>
+            <th><p class="textos" id="p4">De acordo com Jovane Guissone, o campeão de esgrima em cadeira de rodas nas olimpíadas de Londres em 2012 e
+                 medalhista de prata em Tóquio 2020, ele teve sua vida revigorada quando começou a se dedicar à prática do esporte, também diz
+                  que o esporte representa uma superação, já que começou a praticá-lo depois de sofrer um grave ferimento na coluna. </p></th>
+            <th><p class="textos" id="p5">O grupo Águias de Concórdia (Associação De Pessoas com Deficiência Física Águias De Concórdia) é uma organização
+                 sem fins lucrativos que tem como seu principal objetivo desenvolver e incentivar jogos de basquete em cadeira de rodas, o grupo
+                  organiza e realiza jogos de basquete amistosos entre times de esportistas cadeirantes.
+            </p></th>
+        
+    </tr>
+</table>
+</div>  
+<div class="retangulo">
+   <tr>
+        <th><p class="texto1" >
+            A ajuda, colaboração e apoio da comunidade em que o cadeirante
+            esta inserido é um fator extremamente importante para a plena
+            inclusão e acessibilidade do cadeirante no esporte. Contando
+            com o apoio da comunidade o respeito é constante, as cobranças
+            de mudanças contam com mais vozes e a adaptação de locais físicos
+            se torna um foco de todos.
+        </p></th>
+
+        <th><img src="imagem3.png" class="imagem3"></th>
+    </tr>
+</div>
+<div id="calendario">
+<div class="txtetit">
+    <p class="titulo" id="p8">Calendário</p>
+
+    <p class="texto2" id="p9">É de extrema importância que valorizemos os jogos paraolímpicos, estes jogos, além de apoiar,
+        trazem visibilidade para a causa do esporte adaptado. Ao clicar no botão ao lado você terá acesso a um calendário
+        com a data de diversos jogos paraolímpicos para que você possa conhecer a data destes eventos e acompanha-los
+        quando acontecerem:</p>
+</div>
+<div class="calendario">
+<script src="calendario.js"></script>
+    <div id="call">
+        <button onclick="Avn()">Próximo Mês -></button>
+        <button onclick="Hj()"> Hoje </button>
+        <button onclick="Ant()" id="botaocall"> <- Mês Anterior</button>
+        <table id="Tabela"></table>
+        
+    </div> 
+</div>
+</div>
+<div>
+    
+</div>
+<div class="Sobrenos" id="sobrenos">
+    <div class="txtetit1">
+        <p class="titulo1" id="p10">Sobre Nós</p>
+            
+        <p class="texto3" id="p11">Somos um grupo de estudantes do curso técnico em informática para internet do IFC
+             campus concórdia. Nesse ano recebemos a tarefa de desenvolver um artigo cientifico e um website
+              com o tema Inclusão Social: atitudes, percepções e práticas, para afunilar mais o assunto decidimos
+             nos especializar e escrever sobre a inclusão e a acessibilidade dos cadeirantes no esporte hoje.</p>
+    </div>
+    <img src="imagem5.png" class="imagem5">
+</div>
+<div id="esportes">
+<tr>
+    <th> <img src="imagem8.jpg" class="imagem8"> </th>
+    <th> <img src="imagem9.jpg" class="imagem9"> </th>
+</tr>
+
+<tr>
+    <th> <p class="texto4" id="p12"> O basquetebol para cadeirantes é um dos esportes praticados na cidade Concórdia.
+        Foi um esporte que teve seu início após a segunda guerra mundial pelos ex soldados norte - americanos feridos, mas apenas em 1947, ocorreu o primeiro jogo oficial.</p> </th>
+    <th> <p class="texto4" id="p13">O arco e flecha foi um dos primeiros esportes adaptados para as paraolímpiadas,
+         inicialmente era só para a categoria masculina, da mesma forma que o basquetebol o arco e flecha 
+         também surgiu como reintegração.  </p> </th>
+</tr>
+</div>
+<div>
+    <p class="titulo3" id="p14">Maiores campeões paraolímpicos brasileiros</p>
+</div>
+<div class="container" id="planos">
+    <div class="card-container">
+        <div class="card-wrapper">
+            <div class="card light">
+             <div class="text-overlay">
+                <div class="details-text">
+                    <img src="campeao1.jpg" class="camp">
+               </div>
+               </div>
+               <div class="purchase-button-container">
+                <p class="nomecamp">Clodoaldo Silva</p>
+                <p class="camptxt">6 medalhas de ouro</p>
+                <p class="camptxt">6 medalhas de prata</p>
+                <p class="camptxt">2 medalhas de bronze</p>
+                  <i class="fa-solid fa-person"></i>
+                 
+                </div>
+            </div>
+         </div>
+<div class="card-wrapper">
+ <div class="card dark">
+ <div class="text-overlay">
+     
+
+<div class="details-text">
+    <img src="campeao2.webp" class="camp">
+</div>
+</div>
+      <div class="purchase-button-container">
+        <p class="nomecamp">Luiz claudio pereira </p>
+        <p class="camptxt">6 medalhas de ouro</p>
+      <i class="fa-solid fa-people-group"></i> 
+        
+ </div>
+</div>
+</div>
+      <div class="card-wrapper">
+      <div class="card light">
+      <div class="text-overlay"> 
+      
+      
+      <div class="details-text">
+
+     <img src="campeao3.jpg" class="camp">
+ </div>
+</div>
+    <div class="purchase-button-container">
+        <p class="nomecamp">Dirceu Pinto</p>
+        <p class="camptxt">4 medalhas de ouro</p>
+        <p class="camptxt">1 medalha de prata</p>
+        
+                  <i class="fa-solid fa-person"></i>
+                </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+
+
+
+<button onclick="Contraste()" class="acess"><img src="contraste.png" class="acess_img"></button>
+<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+<footer>
+    <img src="logo.png" class="logo2">
+    <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJTGnQHTgNSDMkNJdcwxBFBVWXdqVXZTjvQdfgtmLLmMWGNjdpHwtjLQnKBhMkmNGJHWgZL"><img class="Email" src="email.png"></img></a>
+    <a href="#"><img class="txtfooter" src="inicio.png"></img></a>
+    <img src="logo_ifc.png" class="imgfooter">
+</footer>
+
+</body>
+</html>
